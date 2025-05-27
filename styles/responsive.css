@@ -65,10 +65,17 @@
     padding: 10px 20px;
   }
 
-  .blog-content-img img {
+  .blog-content-img {
     width: 100%;
+    overflow: hidden;
     padding: 0 20px;
     box-sizing: border-box;
+  }
+
+  .blog-content-img img {
+    width: 100%;
+    height: auto;
+    display: block;
   }
 
   #blog-content {
@@ -102,3 +109,4 @@
     margin: 0 10px;
   }
 }
+
